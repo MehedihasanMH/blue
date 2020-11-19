@@ -1,0 +1,202 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+	margin-top:4%;
+}
+.menu ul{
+	list-style:none;
+	float: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	font-family:sans-serif;
+	font-size:16px ;
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 25px;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li:hover a{
+	color:#0078BD;
+}
+/*header End*/
+/*bannar start*/
+.bannar{
+	background-image: url(../images/bannar.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.com_wrapar{
+	margin: 193px 0 70px;
+	width: 50%;
+}
+.h3{
+	margin: 0;
+	font-family:sans-serif;
+	font-size:34px ;
+	font-weight: 400;
+	color:white;
+}
+.h1{
+	margin: 0;
+	font-family:sans-serif;
+	font-size:43px ;
+	color:#0078BD;
+}
+.p{
+	margin: 0;
+	font-family:sans-serif;
+	font-size:14px ;
+	font-weight:400;
+	color:white;
+	line-height: 24px;
+}
+button{
+	margin-top: 20px;
+	padding:0px;
+	width: 157px;
+	height: 32px;
+	border-radius: 4px;
+	transition: .3s;
+	cursor: pointer;
+}
+button:hover{
+	color:#0078BD;
+	background-color: #121B2A;
+}
+/*bannar End*/
+/*service star*/
+.service{
+	padding: 55px 0;
+	background-color: #121B2A;
+}
+.single_box{
+	padding-right: 5%;
+	width: 30%;
+	float: left;
+	
+}
+.single_box img{
+	width: 100%;
+}
+.single_box p{
+	color: white;
+}
+.single_box:last-child{
+	padding-right: 0;
+}
+/*service End*/
+/*address start*/
+.address{
+	background-color: #040811;
+}
+.singe{
+	margin-top: 20px;
+	padding-right: 1%;
+	width: 32%;
+	float: left;
+	color: white;
+}
+.singe h1{
+	font-size: 25px;
+	font-weight: 400;
+}
+.singe h1 span{
+	color:#0078BD;
+}
+.singe ul{
+	padding-left: 0;
+	list-style: none;
+}
+.singe ul li{
+	padding-bottom: 8px;
+}
+.singe img{
+	width: 45%;
+}
+.apps{
+	float: right;
+}
+.single:last-child{
+	padding-right: 0;
+}
+/*address End*/
+/*footer start*/
+footer{
+	background-color: #121B2A;
+}
+.f_wrapar{
+	width: 100%;
+	float: left;
+}
+
+.f_menu{
+	width: 50%;
+	margin-top:0;
+	border:1px solid red;
+}
+.f_menu ul{
+	list-style:none;
+	padding: 0;
+	display: inline-block;
+}
+.f_menu ul li{
+	display: inline-block;
+	border-right: 1px solid #fff;
+}
+.f_menu ul li a{
+	font-family:sans-serif;
+	font-size:14px ;
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 5px;
+	transition: .3s;
+}
+.f_menu ul li:last-child a{
+	padding-right:0;
+	border:0px solid #ff;  
+}
+.f_menu ul li:hover a{
+	color:#0078BD;
+}
+.f_logo{
+	width: 10%;
+	border:1px solid red;
+}
+.f_logo img{
+	width: 100%;
+}
+
+/*footer End*/
